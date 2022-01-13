@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.my-buttons{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly
+}
+.button{
+    margin-top: 3rem;
+    padding:0.4rem 1rem;
+    text-decoration: solid;
+    width: 160px;
+    border: 1px solid black;
+    cursor: pointer;
+    outline: none;
+    font-size: 1.3rem;
+}
+.button:hover{
+    background-color: rgb(199, 250, 232);
+}
+.info{
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.main-button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-top: 1rem;
+    transform: translate(-50%);
+    padding: 1rem;
+    border-style: none;
+    outline: none;
+    cursor: pointer;
+}
+.main-button:hover{
+    background: rgb(255, 224, 184);
+}
