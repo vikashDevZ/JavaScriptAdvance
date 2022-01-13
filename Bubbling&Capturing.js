@@ -25,3 +25,14 @@ child.addEventListener('click',()=>console.log('clicked on child element'))
 
 //when the 3rd argument is true the even will start capturing from parent -> child
 //when the 3rd argument is false/default the even will start capturing from child -> parent
+
+//                            EVENT DELIGATION
+
+//when the event can be calle by single element to for all of its child element
+//using e.target to find the event location from where it is getting fired
+
+grandparent.addEventListener('click',(e)=>{
+    console.log(e)
+    console.log(e.target);
+    console.log(e.target.textContent);
+});

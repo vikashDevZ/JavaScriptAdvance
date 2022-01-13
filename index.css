@@ -105,11 +105,22 @@ li{
     list-style: none;
 }
 .todo-list li{
-    padding: .7rem;
+    padding: .5rem;
     background-color: rgb(27, 78, 100);
     color: white;
     text-transform: capitalize;
     margin-top: .8rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    outline: none;
+}
+.todo-btn{
+    padding: .5rem 1rem; 
+    font-size: .8rem;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
 }
 .Heading-two{
     font-size: 30px;
